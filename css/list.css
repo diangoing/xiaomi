@@ -1,0 +1,364 @@
+#list{
+	width:1226px;
+	height:460px;
+	margin:0 auto;
+	position: relative;
+}
+#list .navlist{
+	width:234px;
+	height:460px;
+	position: absolute;
+	padding:20px 0;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.6);
+	z-index: 30;
+}
+#list .navlist .ullist >li{
+	display: block;
+
+}
+#list .navlist .ullist >li >a{
+	box-sizing: border-box;
+	width:234px;
+	height: 42px;
+	display: inline-block;
+	line-height: 42px;
+	font-size: 14px;
+	padding-left: 25px;
+	text-decoration: none;
+	color: #ffffff;
+	position: relative;
+
+}
+#list .navlist .ullist >li >a >i{
+	position: absolute;
+	right: 20px;
+}
+#list .navlist .ullist >li >a:hover{
+	background: #FF7E00;
+}
+/* nonelist1 */
+.ng1{
+	width:234px;
+}
+.ng2{
+	width:468px;
+}
+.ng3{
+	width:702px;
+}
+#list .nonelist1{
+	position: absolute;
+	left:234px;
+	top:0;
+	height:460px;
+	background: #ffffff;
+	display: none;
+}
+#list .nonelist1 >div{
+	width:234px;
+	height: 460px;
+	float: left;
+	
+}
+#list .nonelist1 >div >ul >li{
+	display: block;
+	position: relative;
+}
+#list .nonelist1 >div >ul >li .all{
+	box-sizing: border-box;
+	width:234px;
+	height: 76px;
+	display: inline-block;
+	line-height: 76px;
+	font-size: 14px;
+	padding-left: 60px;
+	text-decoration: none;
+	color: #000;
+	position: relative;
+	background: url(../img/xm6_80.png) no-repeat;
+	background-position: 10px center;
+
+}
+/* 鼠标悬停触发列表 */
+#list .navlist .ullist >li:hover .nonelist1{
+	display: block;
+}
+
+#list .nonelist1 >div ul li .xuangou{
+	position: absolute;
+	right: 10px;
+	top:50%;
+	height:28px;
+	box-sizing: border-box;
+	margin-top:-14px;
+	padding:2px 8px;
+	border:1px solid #FF6700;
+	text-decoration: none;
+	color:#FF7E00;
+}
+#list .nonelist1 >div ul li .all:hover{
+	color:#ff6700;
+}
+#list .nonelist1 >div ul li .xuangou:hover{
+	background: #FF6700;
+	color:#ffffff;
+}
+
+#lb{
+	width:1226px;
+	height:460px;
+	position: relative;
+	z-index: 9;
+}
+#lunbodu a img{
+	position: absolute;
+	opacity:0;
+	transition: all 1s;
+}
+
+#bt{
+	position: absolute;
+	z-index: 15;
+	right: 30px;
+	bottom: 20px;
+
+}
+#bt .btn{
+	width:10px;
+	height: 10px;
+	border-radius: 7px;
+	border:2px solid #4C4D56;
+	display: inline-block;
+	cursor:pointer;
+}
+#lb #lft{
+	width:41px;
+	height: 69px;
+	position: absolute;
+	left:234px;
+	top:50%;
+	margin-top: -34.5px;
+	background:url(../img/icon-slides.png) -84px 0 no-repeat ;
+	z-index: 15;
+	cursor:pointer;
+
+}
+#lb #lft:hover{
+	background:url(../img/icon-slides.png) 0 0 no-repeat ;	
+}
+#lb #rit{
+	width:41px;
+	height: 69px;
+	position: absolute;
+	right:0;
+	top:50%;
+	margin-top: -34.5px;
+	background:url(../img/icon-slides.png) -125px 0 no-repeat ;
+	z-index: 15;
+	cursor:pointer;
+	
+}
+#lb #rit:hover{
+	background:url(../img/icon-slides.png) -42px 0 no-repeat ;	
+}
+
+#migo{
+	width:1226px;
+	height:170px;
+	margin:0 auto;
+	position: relative;
+	margin-top:14px;
+}
+#migo >div{
+	float: left;
+}
+#migo >div >a img{
+	width:316px;
+	height: 170px;
+}
+#migo .mi1{
+	width:234px;
+	height: 170px;
+	background: #5F5750;
+}
+#migo .mi1 ul li{
+	width:76px;
+	height: 82px;
+	float:left;
+
+	text-align:center;
+
+}
+#migo .mi1 ul li a{
+	color:#C8C5C2;
+	text-decoration: none;
+	display: inline-block;
+	margin-top:30px;
+}
+
+#migo >div:not(.mi1){
+	width:316px;
+	height: 170px;
+	margin-left: 14px;
+}
+#migo >div:not(.mi1):hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+#migo .mi1 ul li a:hover{
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+#migo .mi1 ul li:nth-child(1):after{
+	content: '';
+	position: absolute;
+	margin-top:6px;
+	margin-left: 10px;
+	width:1px;
+	height: 70px;
+	background: #665E57;
+}
+#migo .mi1 ul li:nth-child(1):before{
+	content: '';
+	position: absolute;
+	top:82px;
+	left: 6px;
+	width:64px;
+	height: 1px;
+	background: #665E57;
+}
+#migo .mi1 ul li:nth-child(2):before{
+	content: '';
+	position: absolute;
+	top:82px;
+	left: 82px;
+	width:64px;
+	height: 1px;
+	background: #665E57;
+}
+#migo .mi1 ul li:nth-child(3):before{
+	content: '';
+	position: absolute;
+	top:82px;
+	left: 158px;
+	width:64px;
+	height: 1px;
+	background: #665E57;
+}
+#migo .mi1 ul li:nth-child(2):after{
+	content: '';
+	position: absolute;
+	margin-top:6px;
+	margin-left: 10px;
+	width:1px;
+	height: 70px;
+	background: #665E57;
+}
+#migo .mi1 ul li:nth-child(4):after{
+	content: '';
+	position: absolute;
+	margin-top:6px;
+	margin-left: 10px;
+	width:1px;
+	height: 70px;
+	background: #665E57;
+}
+#migo .mi1 ul li:nth-child(5):after{
+	content: '';
+	position: absolute;
+	margin-top:6px;
+	margin-left: 10px;
+	width:1px;
+	height: 70px;
+	background: #665E57;
+}
+
+
+#mxdp{
+	width:1226px;
+	
+	margin:0 auto;
+	position: relative;
+	margin-top:30px;
+	margin-bottom: 40px;
+	overflow-x: auto;
+}
+#mxdp .dp{
+	height: 58px;
+	line-height: 58px;
+	position:relative;
+}
+#mxdp .dp h2{
+	font-size: 22px;
+	font-weight: 200;
+	display: inline-block;
+	margin:0;
+}
+#mxdp .dp >div{
+	float: right;
+	text-align: center;
+}
+#mxdp .dp >div >a{
+	width:36px;
+	height: 24px;
+	display: inline-block;
+	line-height: 24px;
+	text-decoration: none;
+	color:#E2E0E0;
+	border:1px solid #E2E0E0;
+	font-size: 1.4em;
+}
+#mxdp .dplist{
+	width:1226px;
+	height: 340px;
+	overflow:hidden;
+}
+#mxdp .dplist >div{
+	width:2480px;
+	height:340px;
+}
+#mxdp .dplist ul >li{
+	width:234px;
+	height: 340px;
+	text-align: center;
+	float: left;
+	margin-right: 14px;
+	padding-top:39px;
+	box-sizing: border-box;
+	background-color: #FAFAFA;
+}
+#mxdp .dplist ul >li .png{
+	display: inline-block;
+	width:160px;
+	height: 160px;
+
+}
+
+#mxdp .dplist ul >li >a >img{
+	width:160px;
+	height: 160px;
+}
+
+#mxdp .dplist ul >li a:nth-child(2){
+	display: block;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color:#000;
+}
+#mxdp .dplist ul >li p:nth-child(3){
+	margin:0;
+	margin-bottom: 14px;
+	color:#B1B0B0;
+}
+#mxdp .dplist ul >li p:nth-child(4){
+	margin:0;
+	color:#FF7825;
+}
+

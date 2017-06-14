@@ -1,0 +1,209 @@
+body{
+		margin:0;
+		padding:0;
+	    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+ul,li{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+
+#header{
+	color:#B0B0B0;
+	height:40px;
+	background-color: #333333;
+	position:relative;
+	z-index: 100;
+	font-size: 12px;
+}
+#header:after{
+	content:'';
+	clear:both;
+}
+#header .head{
+	width:1226px;
+	height:40px;
+	line-height: 40px;
+	margin:0 auto;
+	background-color: #333333;
+}
+#header .head .headleft{
+	height: 40px;
+	float:left;
+	font-size: 0;
+}
+#header .head .headleft a{
+	font-size: 12px;
+	text-decoration: none;
+	color:#B0B0B0;
+}
+#header .head .headleft span{
+	font-size: 12px;
+	margin:0 10px;
+	opacity:0.5;
+	color:#B0B0B0;
+}
+#header .head .headleft a:hover{
+	color:#ffffff;
+}
+
+
+#header .head .headright{
+	height: 40px;
+	float:right;
+	font-size: 0;
+}
+#header .head .headright >a{
+	text-decoration: none;
+	color:#B0B0B0;
+	font-size: 12px;
+}
+#header .head .headright >span{
+	font-size: 12px;
+	color:#B0B0B0;
+	margin:0 10px;
+}
+#header .head .headright a:hover{
+	color:#ffffff;
+}
+#header .head .headright .gouwuche{
+	width:120px;
+	line-height: 40px;
+	height: 40px;
+	background: #424242;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	font-size: 12px;
+	margin-left: 10px;
+}
+#header .head .headright .gouwuche .gou{
+	color:#B0B0B0;
+	text-decoration: none;
+	display: inline-block;
+	width:120px;
+	height:40px;
+	
+}
+#header .head .headright .gouwuche .gou:hover{
+	background: #ffffff;
+	color:#ff6700;
+	
+}
+#header .head .headright .gouwuche .gcontainer{
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width:316px;
+	overflow: hidden;
+	box-shadow: 1px 1px 15px #B0B0B0;
+	height:0;
+	background-color: #ffffff;
+	transition:0.5s all;
+	z-index: 101;
+}
+#header .head .headright .gouwuche:hover .gcontainer{
+	display: block;
+	height:100px;
+	line-height: 100px;
+}
+
+#nav{
+	position: relative;
+	height:100px;
+	width:1226px;
+	margin:0 auto;
+	line-height: 100px;
+	
+	font-size: 0;
+}
+
+
+#nav .navul,#nav .navul >li{
+	display:inline-block;
+	font-size: 16px;
+	height:100px;
+	line-height: 100px;
+	padding:0 8px;
+}
+#nav .navul,#nav .navul >li a{
+	color:#000;
+	text-decoration: none;
+
+}
+#nav .navul,#nav .navul >li a:hover{
+	color:#FF7E00;
+}
+#nav .navlogo{
+	float: left;
+	margin-top: 22.5px;
+	width:55px;
+	height:55px;
+	background: #FF6700;
+}
+#nav .navbjb{
+	float:left;
+	margin-top: 17px;
+	width:180px;
+	height:66px;
+
+}
+#nav .submit{
+	float:right;
+	height: 50px;
+	line-height: 50px;
+	margin-top:25px;
+	width:292px;
+	position: relative;
+}
+#nav .submit .text{
+	width:240px;
+	height:50px;
+	outline: none;
+	box-sizing: border-box;
+	border:1px solid #E0E0E0;
+	border-right: none;
+	padding:0 10px;
+	position: relative;
+	z-index: 10;
+}
+#nav .submit .text:hover,#nav .submit .text:hover +.mit{
+	border-color: #B0B0B0;
+}
+#nav .submit .text:focus,#nav .submit .text:focus +.mit{
+	border-color: #ff7e00;
+	z-index: 12;
+}
+
+#nav .submit .mit{
+	width:52px;
+	height:50px;
+	background: #ffffff;
+	outline: none;
+	border:1px solid #E0E0E0;
+	cursor:pointer;
+}
+#nav .submit .mit:hover{
+	background: #FF7E00;
+}
+#nav .submit .hint{
+	font-size: 12px;
+	position: absolute;
+	z-index: 11;
+	line-height: 16px;
+	top:16px;
+	right:60px;
+
+}
+#nav .submit .hint a{
+	color: #757575;
+	background: #EEEEEE;
+	padding:0 5px;
+	text-decoration: none;
+}
+#nav .submit .hint a:hover{
+	background: #FF7E00;
+}
